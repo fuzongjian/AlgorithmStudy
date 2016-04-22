@@ -18,6 +18,8 @@
 		507942BF1CC9C077006824A1 /* StackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942BE1CC9C077006824A1 /* StackController.m */; };
 		507942C21CC9C8E7006824A1 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942C11CC9C8E7006824A1 /* Stack.m */; };
 		507942CA1CC9F0F5006824A1 /* HeapsortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942C91CC9F0F5006824A1 /* HeapsortController.m */; };
+		507942CE1CCA1203006824A1 /* FastSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942CD1CCA1203006824A1 /* FastSortController.m */; };
+		507942EB1CCA3BE8006824A1 /* InsertSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942EA1CCA3BE8006824A1 /* InsertSortController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		507942C11CC9C8E7006824A1 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		507942C81CC9F0F5006824A1 /* HeapsortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapsortController.h; sourceTree = "<group>"; };
 		507942C91CC9F0F5006824A1 /* HeapsortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapsortController.m; sourceTree = "<group>"; };
+		507942CC1CCA1203006824A1 /* FastSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastSortController.h; sourceTree = "<group>"; };
+		507942CD1CCA1203006824A1 /* FastSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastSortController.m; sourceTree = "<group>"; };
+		507942E91CCA3BE8006824A1 /* InsertSortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSortController.h; sourceTree = "<group>"; };
+		507942EA1CCA3BE8006824A1 /* InsertSortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,8 @@
 				5079428A1CC9BE43006824A1 /* AppDelegate.m */,
 				5079428C1CC9BE43006824A1 /* ViewController.h */,
 				5079428D1CC9BE43006824A1 /* ViewController.m */,
+				507942E81CCA3BA8006824A1 /* 插入排序算法 */,
+				507942CB1CCA1191006824A1 /* 快速排序算法 */,
 				507942C71CC9F0DC006824A1 /* 堆排序算法 */,
 				507942BC1CC9C077006824A1 /* 数据结构栈 */,
 				5079428F1CC9BE43006824A1 /* Main.storyboard */,
@@ -169,6 +177,25 @@
 				507942C91CC9F0F5006824A1 /* HeapsortController.m */,
 			);
 			path = "堆排序算法";
+			sourceTree = "<group>";
+		};
+		507942CB1CCA1191006824A1 /* 快速排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				507942CC1CCA1203006824A1 /* FastSortController.h */,
+				507942CD1CCA1203006824A1 /* FastSortController.m */,
+			);
+			path = "快速排序算法";
+			sourceTree = "<group>";
+		};
+		507942E81CCA3BA8006824A1 /* 插入排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				507942E91CCA3BE8006824A1 /* InsertSortController.h */,
+				507942EA1CCA3BE8006824A1 /* InsertSortController.m */,
+			);
+			name = "插入排序算法";
+			path = "快速排序算法/插入排序算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +330,11 @@
 			files = (
 				5079428E1CC9BE43006824A1 /* ViewController.m in Sources */,
 				5079428B1CC9BE43006824A1 /* AppDelegate.m in Sources */,
+				507942EB1CCA3BE8006824A1 /* InsertSortController.m in Sources */,
 				507942BF1CC9C077006824A1 /* StackController.m in Sources */,
 				507942C21CC9C8E7006824A1 /* Stack.m in Sources */,
 				507942CA1CC9F0F5006824A1 /* HeapsortController.m in Sources */,
+				507942CE1CCA1203006824A1 /* FastSortController.m in Sources */,
 				507942881CC9BE43006824A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

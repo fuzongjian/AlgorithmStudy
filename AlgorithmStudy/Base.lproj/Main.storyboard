@@ -56,14 +56,42 @@
                                     <segue destination="lOb-Q9-GDq" kind="push" id="Dg6-CD-Bkp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSY-fC-uKh">
+                                <rect key="frame" x="20" y="144" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qWT-sg-Ue3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="快速排序算法"/>
+                                <connections>
+                                    <segue destination="Yhp-s7-e0P" kind="push" id="nie-kK-kta"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9rT-S3-olz">
+                                <rect key="frame" x="20" y="184" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mu4-v0-vH1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="插入排序算法"/>
+                                <connections>
+                                    <segue destination="DLx-3M-HzP" kind="push" id="Epe-fV-eYs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="DSY-fC-uKh" firstAttribute="top" secondItem="XQf-yq-73k" secondAttribute="bottom" id="5YN-i8-bK5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9rT-S3-olz" secondAttribute="trailing" id="AVE-0J-dQ7"/>
                             <constraint firstItem="XQf-yq-73k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Fow-6B-2UU"/>
                             <constraint firstItem="vko-yJ-Zof" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Hlp-b2-tZq"/>
                             <constraint firstItem="vko-yJ-Zof" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Syr-gE-NeE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vko-yJ-Zof" secondAttribute="trailing" id="WQ6-Qh-fde"/>
+                            <constraint firstItem="DSY-fC-uKh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bwW-8a-Iyl"/>
+                            <constraint firstItem="9rT-S3-olz" firstAttribute="top" secondItem="DSY-fC-uKh" secondAttribute="bottom" id="e4p-DI-HwD"/>
                             <constraint firstItem="XQf-yq-73k" firstAttribute="top" secondItem="vko-yJ-Zof" secondAttribute="bottom" id="gVr-9h-IKv"/>
+                            <constraint firstItem="9rT-S3-olz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lRh-zr-Tnm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DSY-fC-uKh" secondAttribute="trailing" id="nIO-D1-Y9q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XQf-yq-73k" secondAttribute="trailing" id="xLA-wZ-gPF"/>
                         </constraints>
                     </view>
@@ -71,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-450" y="120"/>
+            <point key="canvasLocation" x="-566" y="-480"/>
         </scene>
         <!--数据结构——栈-->
         <scene sceneID="z4x-7b-3sZ">
@@ -90,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dma-kx-EfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="18"/>
+            <point key="canvasLocation" x="808" y="-560"/>
         </scene>
         <!--堆排序算法-->
         <scene sceneID="kGs-9f-56i">
@@ -109,7 +137,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Dj-zv-dI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="289" y="362"/>
+            <point key="canvasLocation" x="755" y="-434"/>
+        </scene>
+        <!--插入排序算法-->
+        <scene sceneID="NYG-CC-yRw">
+            <objects>
+                <viewController id="DLx-3M-HzP" customClass="InsertSortController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YID-du-ahM"/>
+                        <viewControllerLayoutGuide type="bottom" id="WJH-yU-6oH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cq2-Ib-Jrl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="插入排序算法" id="BHr-Ef-Xbw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZw-DC-Xqg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-192" y="-658"/>
+        </scene>
+        <!--快速排序算法-->
+        <scene sceneID="yFf-Pi-IFc">
+            <objects>
+                <viewController id="Yhp-s7-e0P" customClass="FastSortController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CIj-CM-2ES"/>
+                        <viewControllerLayoutGuide type="bottom" id="VZi-cb-bir"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ot6-XP-FRL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="快速排序算法" id="23u-M7-g89"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PfR-sT-U6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-165" y="-232"/>
         </scene>
     </scenes>
 </document>

@@ -143,7 +143,7 @@ void adjustMinHeap(int a[], int len,int parentNodeIndex){
     }else{//左孩子右孩子都有,去左右孩子两者中最小的
         targetIndex = a[leftChildIndex] < a[rightChildIndex] ? leftChildIndex : rightChildIndex;
     }
-    //只有孩子比父节点的值大，才需要交换
+    //只有孩子比父节点的值小，才需要交换
     if (a[targetIndex] < a[parentNodeIndex]) {
         int temp = a[targetIndex];
         a[targetIndex] = a[parentNodeIndex];
