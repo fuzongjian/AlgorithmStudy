@@ -1,5 +1,5 @@
 //
-//  SortController.h
+//  HeapsortController.h
 //  AlgorithmStudy
 //
 //  Created by 陈舒澳 on 16/4/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SortController : UIViewController
+@interface HeapsortController : UIViewController
 
 @end

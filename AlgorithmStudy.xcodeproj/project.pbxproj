@@ -17,7 +17,7 @@
 		507942AC1CC9BE44006824A1 /* AlgorithmStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942AB1CC9BE44006824A1 /* AlgorithmStudyUITests.m */; };
 		507942BF1CC9C077006824A1 /* StackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942BE1CC9C077006824A1 /* StackController.m */; };
 		507942C21CC9C8E7006824A1 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942C11CC9C8E7006824A1 /* Stack.m */; };
-		507942C61CC9D17C006824A1 /* SortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942C51CC9D17C006824A1 /* SortController.m */; };
+		507942CA1CC9F0F5006824A1 /* HeapsortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507942C91CC9F0F5006824A1 /* HeapsortController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,8 @@
 		507942BE1CC9C077006824A1 /* StackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackController.m; sourceTree = "<group>"; };
 		507942C01CC9C8E7006824A1 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		507942C11CC9C8E7006824A1 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
-		507942C41CC9D17C006824A1 /* SortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortController.h; sourceTree = "<group>"; };
-		507942C51CC9D17C006824A1 /* SortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortController.m; sourceTree = "<group>"; };
+		507942C81CC9F0F5006824A1 /* HeapsortController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapsortController.h; sourceTree = "<group>"; };
+		507942C91CC9F0F5006824A1 /* HeapsortController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapsortController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				5079428A1CC9BE43006824A1 /* AppDelegate.m */,
 				5079428C1CC9BE43006824A1 /* ViewController.h */,
 				5079428D1CC9BE43006824A1 /* ViewController.m */,
-				507942C31CC9D15C006824A1 /* 算法排序 */,
+				507942C71CC9F0DC006824A1 /* 堆排序算法 */,
 				507942BC1CC9C077006824A1 /* 数据结构栈 */,
 				5079428F1CC9BE43006824A1 /* Main.storyboard */,
 				507942921CC9BE43006824A1 /* Assets.xcassets */,
@@ -162,14 +162,13 @@
 			path = "数据结构栈";
 			sourceTree = "<group>";
 		};
-		507942C31CC9D15C006824A1 /* 算法排序 */ = {
+		507942C71CC9F0DC006824A1 /* 堆排序算法 */ = {
 			isa = PBXGroup;
 			children = (
-				507942C41CC9D17C006824A1 /* SortController.h */,
-				507942C51CC9D17C006824A1 /* SortController.m */,
+				507942C81CC9F0F5006824A1 /* HeapsortController.h */,
+				507942C91CC9F0F5006824A1 /* HeapsortController.m */,
 			);
-			name = "算法排序";
-			path = "排序";
+			path = "堆排序算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +304,8 @@
 				5079428E1CC9BE43006824A1 /* ViewController.m in Sources */,
 				5079428B1CC9BE43006824A1 /* AppDelegate.m in Sources */,
 				507942BF1CC9C077006824A1 /* StackController.m in Sources */,
-				507942C61CC9D17C006824A1 /* SortController.m in Sources */,
 				507942C21CC9C8E7006824A1 /* Stack.m in Sources */,
+				507942CA1CC9F0F5006824A1 /* HeapsortController.m in Sources */,
 				507942881CC9BE43006824A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

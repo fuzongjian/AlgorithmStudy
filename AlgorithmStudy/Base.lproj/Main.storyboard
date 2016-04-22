@@ -51,7 +51,7 @@
                                     <constraint firstAttribute="height" constant="40" id="NmY-jh-RhM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="算法排序"/>
+                                <state key="normal" title="堆排序算法"/>
                                 <connections>
                                     <segue destination="lOb-Q9-GDq" kind="push" id="Dg6-CD-Bkp"/>
                                 </connections>
@@ -92,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="414" y="18"/>
         </scene>
-        <!--Sort Controller-->
+        <!--堆排序算法-->
         <scene sceneID="kGs-9f-56i">
             <objects>
-                <viewController id="lOb-Q9-GDq" customClass="SortController" sceneMemberID="viewController">
+                <viewController id="lOb-Q9-GDq" customClass="HeapsortController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QEB-6X-GHU"/>
                         <viewControllerLayoutGuide type="bottom" id="q8h-Vb-8RE"/>
@@ -105,11 +105,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0Oe-Vg-zq7"/>
+                    <navigationItem key="navigationItem" title="堆排序算法" id="0Oe-Vg-zq7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Dj-zv-dI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="296"/>
+            <point key="canvasLocation" x="289" y="362"/>
         </scene>
     </scenes>
 </document>
