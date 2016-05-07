@@ -20,7 +20,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CoL-mA-d7v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-965" y="166"/>
+            <point key="canvasLocation" x="-1991" y="-248"/>
         </scene>
         <!--算法学习-->
         <scene sceneID="tne-QT-ifu">
@@ -78,20 +78,62 @@
                                     <segue destination="DLx-3M-HzP" kind="push" id="Epe-fV-eYs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBE-cI-C8V">
+                                <rect key="frame" x="20" y="224" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="AO0-fd-kMh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="冒与泡选择排序算法"/>
+                                <connections>
+                                    <segue destination="F1e-Og-7dw" kind="push" id="CvC-6N-afe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-ra-H1K">
+                                <rect key="frame" x="20" y="264" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6v4-GH-gY5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="希尔排序算法"/>
+                                <connections>
+                                    <segue destination="z1U-Yp-RGI" kind="push" id="xjK-aL-sfU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eol-dI-Sr4">
+                                <rect key="frame" x="20" y="304" width="560" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="xaL-Og-l3X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="归并排序算法"/>
+                                <connections>
+                                    <segue destination="TGe-s4-cDp" kind="push" id="6JG-86-bhd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Eol-dI-Sr4" firstAttribute="top" secondItem="b7F-ra-H1K" secondAttribute="bottom" id="4Zd-MD-lJh"/>
                             <constraint firstItem="DSY-fC-uKh" firstAttribute="top" secondItem="XQf-yq-73k" secondAttribute="bottom" id="5YN-i8-bK5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lBE-cI-C8V" secondAttribute="trailing" id="6Pb-5l-0dz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="b7F-ra-H1K" secondAttribute="trailing" id="7NO-1D-3Z2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Eol-dI-Sr4" secondAttribute="trailing" id="97U-vP-krX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9rT-S3-olz" secondAttribute="trailing" id="AVE-0J-dQ7"/>
                             <constraint firstItem="XQf-yq-73k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Fow-6B-2UU"/>
                             <constraint firstItem="vko-yJ-Zof" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Hlp-b2-tZq"/>
+                            <constraint firstItem="b7F-ra-H1K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KWX-KC-Xe6"/>
                             <constraint firstItem="vko-yJ-Zof" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Syr-gE-NeE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vko-yJ-Zof" secondAttribute="trailing" id="WQ6-Qh-fde"/>
                             <constraint firstItem="DSY-fC-uKh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bwW-8a-Iyl"/>
                             <constraint firstItem="9rT-S3-olz" firstAttribute="top" secondItem="DSY-fC-uKh" secondAttribute="bottom" id="e4p-DI-HwD"/>
+                            <constraint firstItem="Eol-dI-Sr4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gMy-7e-jOl"/>
                             <constraint firstItem="XQf-yq-73k" firstAttribute="top" secondItem="vko-yJ-Zof" secondAttribute="bottom" id="gVr-9h-IKv"/>
+                            <constraint firstItem="b7F-ra-H1K" firstAttribute="top" secondItem="lBE-cI-C8V" secondAttribute="bottom" id="isj-gf-n85"/>
                             <constraint firstItem="9rT-S3-olz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lRh-zr-Tnm"/>
                             <constraint firstAttribute="trailingMargin" secondItem="DSY-fC-uKh" secondAttribute="trailing" id="nIO-D1-Y9q"/>
+                            <constraint firstItem="lBE-cI-C8V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o4j-Tr-6Qg"/>
+                            <constraint firstItem="lBE-cI-C8V" firstAttribute="top" secondItem="9rT-S3-olz" secondAttribute="bottom" id="uEp-jY-NYo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XQf-yq-73k" secondAttribute="trailing" id="xLA-wZ-gPF"/>
                         </constraints>
                     </view>
@@ -99,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-566" y="-480"/>
+            <point key="canvasLocation" x="-1298" y="-345"/>
         </scene>
         <!--数据结构——栈-->
         <scene sceneID="z4x-7b-3sZ">
@@ -176,6 +218,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfR-sT-U6Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-165" y="-232"/>
+        </scene>
+        <!--归并排序算法-->
+        <scene sceneID="9z8-Xs-xcd">
+            <objects>
+                <viewController id="TGe-s4-cDp" customClass="mergeSortController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wQ8-9V-GpC"/>
+                        <viewControllerLayoutGuide type="bottom" id="U3e-zp-5lh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qff-r3-WTD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="归并排序算法" id="4Tr-zo-8z3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e9l-lJ-Z1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-358" y="52"/>
+        </scene>
+        <!--希尔排序算法-->
+        <scene sceneID="65B-T7-c9s">
+            <objects>
+                <viewController id="z1U-Yp-RGI" customClass="shellSortController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rEr-By-e9b"/>
+                        <viewControllerLayoutGuide type="bottom" id="pXh-c3-UfG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ONk-cM-BKt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="希尔排序算法" id="FF4-U1-9ra"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mJ-eK-s42" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="136"/>
+        </scene>
+        <!--冒泡排序算法-->
+        <scene sceneID="cpy-EU-qeU">
+            <objects>
+                <viewController id="F1e-Og-7dw" customClass="bubbleSortController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="crx-An-byh"/>
+                        <viewControllerLayoutGuide type="bottom" id="JkN-HZ-ATl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eOw-UN-QME">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="冒泡排序算法" id="Clb-0r-xGD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xC-FY-3RE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117" y="-317"/>
         </scene>
     </scenes>
 </document>
